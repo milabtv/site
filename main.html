@@ -2,15 +2,19 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
     <h1>Начало</h1>
-        <menu>
-	        <a href="main.html"><li>Начало</li></a>
-            <a href="animals.html"><li>Животни</li></a>
-            <a href="contact.html"><li>Контакти</li></a>
-        </menu>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href="main.html"><li>Начало</li></a></li>       
+          <li><a href="animals.html"><li>Животни</li></a></li>
+          <li><a href="contact.html"><li>Контакти</li></a></li>
+        </ul>
+      </nav>
         <iframe width="1236" height="695" src="https://www.youtube.com/embed/MTRsov46jmk" title="Virtual field trip to our animal shelter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <img src="https://lifelineanimal.org/wp-content/uploads/2022/01/state-of-the-shelters-blog-post-header.jpg" alt="">
         <p>
